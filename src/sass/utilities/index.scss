@@ -1,0 +1,8 @@
+
+@forward '../utilities/sr-only';
+@forward '../utilities/skip-main';
+
+:focus {
+  outline: 2px cornflowerblue solid;
+  outline-offset: -2px;
+}
