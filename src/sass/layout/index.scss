@@ -2,6 +2,30 @@
 @forward './footer';
 @forward './header';
 
+
+// Custom Scrollbar
+
+/* width */
+::-webkit-scrollbar {
+  width: .6em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c8c8c8;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fcfcfc;
+}
+
+
 // Global SCSS
 
 * {
@@ -32,4 +56,5 @@ main {
   max-width: 100vw;
   min-height: 100vh;
 }
+
 
