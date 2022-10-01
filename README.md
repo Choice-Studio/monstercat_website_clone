@@ -4,7 +4,7 @@ Monstercat is one of the many websites featured on[ frontendpractice.com](https:
 
 The website, so far, is being constructed with AstroJS (duh), SCSS and a little vanilla JavaScript.
 
-For now, please have a look at what I've done at [ableton-choice.netlify.app](https://ableton-choice.netlify.app).git
+For now, please have a look at what I've done at [monstercat-clone.netlify.app](https://monstercat-clone.netlify.app).
 
 ## 📑 Instructions:
 
