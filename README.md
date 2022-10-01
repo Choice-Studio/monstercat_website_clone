@@ -1,8 +1,10 @@
-# 🚀 Astro Webapp Template:
+# 🎧 Monstercat Website Clone
 
-Documentation for this isn't exceptionally deep, as I expect myself to be the only user of this repo. If you'd like to start from this repo yourself, however, Astro provides great documentation [here](https://docs.astro.build/en/getting-started/).
+Monstercat is one of the many websites featured on[ frontendpractice.com](https://frontendpractice.com), and I credit FEP for my initial discovery of the Monstercat webpage.
 
-Luckily, Astro provides magical support for most frameworks and libraries anyone might want to use. Unlike Webpack, Astro really does most of the work for you.
+The website, so far, is being constructed with AstroJS (duh), SCSS and a little vanilla JavaScript.
+
+For now, please have a look at what I've done at [ableton-choice.netlify.app](https://ableton-choice.netlify.app).git
 
 ## 📑 Instructions:
 
@@ -31,4 +33,3 @@ To detach from git, run:
 ```
 rm -r -f .git
 ```
-# monstercat_website_clone
