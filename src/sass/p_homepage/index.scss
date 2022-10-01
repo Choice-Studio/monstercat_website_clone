@@ -2,3 +2,59 @@
 @forward './tablet.scss';
 @forward './desktop.scss';
 
+
+#hero-section {
+  height: 100vh;
+  
+
+  #hero-overlay {
+    background-image: url('/assets/images/photos/album-cover-1.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+  }
+  
+  #dark-hero-overlay {
+    background: linear-gradient(
+      0deg, black -32.5%, rgba(0, 0, 0, 0.55) 100%);
+    z-index:5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+#hero-image-label {
+  rotate: -90deg;
+  bottom: 7.5em;
+  left:-9.5em;
+  font-style: italic;
+}
+
+#hero-image {
+  background-image: url('/assets/images/photos/album-cover-1.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+
+  
+}
+
+#hero-header-text {
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
