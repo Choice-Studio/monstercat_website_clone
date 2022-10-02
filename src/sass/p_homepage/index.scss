@@ -5,14 +5,16 @@
 
 #hero-section {
   height: 110vh;
+  max-height: 75em;
   background: linear-gradient(
       0deg, 
       black 0%, 
       rgba(0, 0, 0, 0.55) 100%
       );
+  
 
   #hero-overlay {
-    background-image: url('/assets/images/photos/album-cover-1.webp');
+    background-image: url('/assets/images/photos/album-cover-1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,7 +50,7 @@
 }
 
 #hero-image {
-  background-image: url('/assets/images/photos/album-cover-1.webp');
+  background-image: url('/assets/images/photos/album-cover-1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,4 +68,7 @@
 
 .icon-box {
   border-width: 1px;
+
+  
 }
+
