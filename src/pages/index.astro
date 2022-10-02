@@ -10,6 +10,7 @@ import '../sass/p_homepage/index.scss';
 // Images must be placed in the public folder. You can link to them.
 // e.g. src="/assets/images/photos/random-photo.png".
 
+
 ---
 
 <Layout>
@@ -18,7 +19,7 @@ import '../sass/p_homepage/index.scss';
 	<section class="w-screen flex justify-center relative" id="hero-section">
 		<div id="hero-overlay"></div>
 		<div id="dark-hero-overlay"></div>
-		<article class="w-4/5 z-10 absolute flex justify-center bottom-16">
+		<article class=" z-10 absolute flex justify-center top-80">
 			<div class="w-2/5 flex relative aspect-square" id="hero-image">
 				<p class="text-white absolute font-size-20" id="hero-image-label">
 					<span class="font-semibold text-primary">
@@ -48,5 +49,49 @@ import '../sass/p_homepage/index.scss';
 		</article>
 	</section>
 	
+	<article class="mt-2">
+		<section class="bg-black">
+			<h4>
+				Stream it your way
+			</h4>
+			<div class="flex my-12">
+				<div class="grid place-items-center aspect-square icon-box border-white border-solid w-28">
+					<i class="fa-brands fa-bandcamp text-white font-size-20 cursor-pointer"></i>
+				</div>
+				<div class="grid place-items-center aspect-square icon-box border-white border-solid w-28">
+					<i class="fa-brands fa-soundcloud text-white font-size-20 cursor-pointer"></i>
+				</div>
+				<div class="grid place-items-center aspect-square icon-box border-white border-solid w-28">
+					<i class="fa-brands fa-apple text-white font-size-20 cursor-pointer"></i>
+				</div>
+				<div class="grid place-items-center aspect-square icon-box border-white border-solid w-28">
+					<i class="fa-brands fa-youtube text-white font-size-20 cursor-pointer"></i>
+				</div>
+				<div class="grid place-items-center aspect-square icon-box border-white border-solid w-28">
+					<i class="fa-brands fa-spotify text-white font-size-20 cursor-pointer"></i>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<h4 class="mb-16">
+				track list
+			</h4>
+			<!-- Tracks -->
+			<div class="flex w-full h-32 justify-between items-center">
+				<p class=" text-white font-size-18">1</p>
+				<i class="fa-solid fa-play font-size-20 text-white font-size-18 cursor-pointer"></i>
+				<div class="flex flex-col justify-center w-8/12">
+					<strong class="capitalized text-white font-size-18 font-semibold">The Small Things</strong>
+					<strong class="capitalized text-white font-size-14 font-semibold">Conroe</strong>
+				</div>
+				<p class=" text-white font-size-18">3:35</p>
+				<i class="fa-solid fa-share-nodes text-white font-size-18 cursor-pointer"></i>
+			</div>
+
+		</section>
+	</article>
+
+
 
 </Layout>
