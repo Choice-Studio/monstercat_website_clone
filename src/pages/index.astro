@@ -2,9 +2,12 @@
 
 // Importing default HTML
 import Layout from "../layouts/Layout.astro";
+import Tracks from "../components/Tracks.astro";
+
 
 // Importing local SCSS
 import '../sass/p_homepage/index.scss';
+
 
 // == Images ==
 // Images must be placed in the public folder. You can link to them.
@@ -49,7 +52,7 @@ import '../sass/p_homepage/index.scss';
 		</article>
 	</section>
 	
-	<article class="mt-2">
+	<article class="mt-2 px-12">
 		<section class="bg-black">
 			<h4>
 				Stream it your way
@@ -78,16 +81,90 @@ import '../sass/p_homepage/index.scss';
 				track list
 			</h4>
 			<!-- Tracks -->
-			<div class="flex w-full h-32 justify-between items-center">
-				<p class=" text-white font-size-18">1</p>
-				<i class="fa-solid fa-play font-size-20 text-white font-size-18 cursor-pointer"></i>
-				<div class="flex flex-col justify-center w-8/12">
-					<strong class="capitalized text-white font-size-18 font-semibold">The Small Things</strong>
-					<strong class="capitalized text-white font-size-14 font-semibold">Conroe</strong>
-				</div>
-				<p class=" text-white font-size-18">3:35</p>
-				<i class="fa-solid fa-share-nodes text-white font-size-18 cursor-pointer"></i>
-			</div>
+			
+			<Tracks 
+			songNumber={'1'}
+			songName={'The Small Things'} 
+			songArtist={'Conroe'} 
+			songLength={'3:35'}
+			 />
+			
+			<Tracks 
+			songNumber={'2'}
+			songName={'Without Your Love'} 
+			songArtist={'Conroe'} 
+			songLength={'3:09'}
+			 />
+			
+			<Tracks 
+			songNumber={'3'}
+			songName={'Therapy'} 
+			songArtist={'Conroe'} 
+			songLength={'3:06'}
+			 />
+			
+			<Tracks 
+			songNumber={'4'}
+			songName={'Fighters'} 
+			songArtist={'Conroe'} 
+			songLength={'3:46'}
+			 />
+			
+			<Tracks 
+			songNumber={'5'}
+			songName={'Way Up'} 
+			songArtist={'Conroe'} 
+			songLength={'3:32'}
+			 />
+			
+			<Tracks 
+			songNumber={'6'}
+			songName={'Waiting'} 
+			songArtist={'Conroe'} 
+			songLength={'3:07'}
+			 />
+			
+			<Tracks 
+			songNumber={'7'}
+			songName={'Dreaming'} 
+			songArtist={'Conroe'} 
+			songLength={'2:57'}
+			 />
+			
+			<Tracks 
+			songNumber={'8'}
+			songName={'Tattoo'} 
+			songArtist={'Conroe'} 
+			songLength={'3:29'}
+			 />
+			
+			<Tracks 
+			songNumber={'9'}
+			songName={'Out for the Night'} 
+			songArtist={'Conroe'} 
+			songLength={'3:05'}
+			 />
+			
+			<Tracks 
+			songNumber={'10'}
+			songName={'Overdue'} 
+			songArtist={'Conroe'} 
+			songLength={'2:48'}
+			 />
+			
+			<Tracks 
+			songNumber={'11'}
+			songName={'Say It'} 
+			songArtist={'Conroe'} 
+			songLength={'3:04'}
+			 />
+			
+			<Tracks 
+			songNumber={'12'}
+			songName={'Here to Stay'} 
+			songArtist={'Conroe'} 
+			songLength={'2:44'}
+			 />
 
 		</section>
 	</article>
