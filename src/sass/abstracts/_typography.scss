@@ -84,6 +84,16 @@ $heading-font: 'Monument', sans-serif;
 $button-font: 'Monument', sans-serif;
 $body-font: 'Montserrat', sans-serif;
 
+.heading-font {
+  font-family: $heading-font;
+}
+.button-font {
+  font-family: $button-font;
+}
+.body-font {
+  font-family: $body-font;
+}
+
 
 
 // ==== Text Styling ====

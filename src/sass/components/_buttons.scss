@@ -10,11 +10,12 @@ button {
 
   // Placeholder Values:
   background-color: $color-primary;
-  padding: 1em 2em;
+  padding: .75em 2em;
   color: white;
   font-weight: 400;
   font-family: $button-font;
   border:1px solid transparent;
+  text-transform: uppercase;
 
   &:hover {
     background-color: white;

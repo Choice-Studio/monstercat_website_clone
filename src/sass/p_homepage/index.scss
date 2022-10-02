@@ -5,7 +5,11 @@
 
 #hero-section {
   height: 110vh;
-  
+  background: linear-gradient(
+      0deg, 
+      black 0%, 
+      rgba(0, 0, 0, 0.55) 100%
+      );
 
   #hero-overlay {
     background-image: url('/assets/images/photos/album-cover-1.webp');

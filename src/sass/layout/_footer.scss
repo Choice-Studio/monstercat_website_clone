@@ -1,1 +1,13 @@
 @use '../utilities' as *;
+
+
+
+footer {
+  input {
+    border-bottom: 1px;
+
+    &::placeholder {
+      color: rgb(140, 135, 130);
+    }
+  }
+}
